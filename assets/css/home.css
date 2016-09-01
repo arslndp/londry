@@ -1,0 +1,194 @@
+body{
+	background: #008171;
+	padding: 0;
+	margin: 0;
+	font-family: 'sans';
+	color: #fff;
+}
+
+/* ini css nav bar index.php yg ada di halaman depan */
+
+.nav{
+	background: #001871 ;
+	height: 60px;
+	box-shadow: 1px 0 15px #00F6FF;1
+	margin: 0;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 0;
+	z-index: 1000000000000000;
+}
+/* ini untuk navbar bagian kanan */
+.nav-right{
+	float: right;
+	margin: 0;
+	padding: 0;
+	margin-right: 10px;
+}
+.nav-right ul{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.nav-right ul li{
+	list-style: none;
+	float: left;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+}
+.nav-right ul li a{
+	margin: 0;
+	padding: 0;
+	display: block;
+	padding: 10px;
+	color: #fff;
+	border: 1px ;
+	text-decoration: none;
+}
+.nav-right ul li a:hover{
+	background: #008181;
+}
+/* akhir dari navbar bagian kanan */
+
+/* ini untuk navbar bagian kiri */
+.nav-left{
+	float: left;
+	margin: 0;
+	padding: 0;
+	padding: 20px;
+}
+.nav-left:hover{
+	background: rgba(0,0,0,0.7);
+}
+/* akhir dari navbar bagian kanan */
+
+/* ini akhir dari nav bar index.php yg ada di halaman depan tadi */
+
+/* bagian kontent pada index.php */
+.bg-aboutus{
+	height: 700px;
+	width: 100%;
+	margin-top: 40px;
+	top: 0;
+	position: fixed;
+	z-index: -100;		
+	background: url(../img/aboutus.jpg); 
+	background-position: center;
+}
+.bg-aboutus h1{
+	padding: 150px;
+	padding-bottom: 0;
+}
+.bg-aboutus p{
+	margin-left: 150px;
+}
+#aboutus{
+	position: relative;
+	height: 600px;
+	padding: 20px;
+	margin-top: 700px;
+	background:  #E29C45;
+	z-index: 100000000;	
+}
+#aboutus p{
+	width: 500px;
+	padding: 100px;
+}
+#daftar{
+	position: relative;
+	width: auto;
+	padding: 50px;
+	background: #008181;
+	margin-top: 700px;
+	top: 0;
+	height: 450px;
+	z-index: 10000000;
+}
+.form-daftar{
+	border: 1px solid #fff;
+	border-radius: 20px;
+	padding: 10px;
+	height: 20px;
+	width: 500px;
+}
+.btn-daftar{
+	background: #001871;
+	padding: 20px;
+	color: #fff;
+	border: 1px solid#001871;
+	border-radius: 20px;
+	margin-left: 550px;
+}
+.btn-daftar:hover{
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+#login{
+	margin-top: 300px;
+	background: #FC6E51;
+	padding: 20px;
+	height: 280px;
+}
+.btn-login{
+	background:  #407A52;
+	padding: 20px;
+	border: 1px;
+	border-radius: 20px;
+	color: #fff;
+}
+.btn-login:hover{
+	cursor: pointer;
+	opacity: 0.6;
+}
+#footer{
+	padding: 0;
+	margin: 0;
+}
+.footer-top{
+	height: 250px;
+	margin-top: 200px;
+	background:  #F62459;
+}
+.footer-top-left{
+	padding: 20px;
+	float: left;
+	padding-left: 100px;
+}
+.footer-top-right{
+	padding: 20px;
+	float: right;
+	padding-right: 100px;
+}
+.footer-top-right ul li{
+	list-style: none;
+	margin-right: 10px;
+	padding: 10px;
+}
+.footer-top-left ul li{
+	list-style: arabic-indic;
+	padding: 5px;
+}
+.footer-bottom{
+	height: 50px;
+	line-height: 1px;
+	background:   #8D608C;
+	padding: 10px;
+	
+	
+}
+.badge-error{
+	background : #E33939;
+	width:300px;
+	padding: 2px;
+	margin:10px;
+}
+.content{
+	margin:225px;
+}
+
+.content p{
+	width:600px;
+}
